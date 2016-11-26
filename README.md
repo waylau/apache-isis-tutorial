@@ -12,7 +12,7 @@ Apache Isis Tutorial 是一本关于 Apache Isis 应用学习的开源书。利�
 
 选择下面入口之一：
 
-* <https://github.com/waylau/apache-isis-tutorial/> 的 [https://github.com/waylau/apache-isis-tutorial/SUMMARY.md](SUMMARY.md)（源码）
+* <https://github.com/waylau/apache-isis-tutorial/> 的 [SUMMARY.md](https://github.com/waylau/apache-isis-tutorial/SUMMARY.md)（源码）
 * <http://waylau.gitbooks.io/apache-isis-tutorial> 点击 Read 按钮（同步更新，国内访问速度一般）
  
 ### Code 源码
