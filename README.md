@@ -3,7 +3,7 @@
 ![](isis-logo-199x100.png)
 
 Apache Isis Tutorial takes you to learn Apache Isis step by step with a large number of samples. There is also a GitBook version of the book: <http://www.gitbook.com/book/waylau/apache-isis-tutorial>.
-Let's [READ](https://github.com/waylau/apache-isis-tutorial/SUMMARY.md)!
+Let's [READ](https://github.com/waylau/apache-isis-tutorial/blob/master/SUMMARY.md)!
 
 [Apache Isis™](http://isis.apache.org/) is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services or view models, and the framework dynamically generates a representation of that domain model as a webapp or a rich hypermedia REST API.
 
@@ -15,7 +15,7 @@ Apache Isis Tutorial 是一本关于 Apache Isis 应用学习的开源书。利�
 
 选择下面入口之一：
 
-* <https://github.com/waylau/apache-isis-tutorial/> 的 [SUMMARY.md](https://github.com/waylau/apache-isis-tutorial/SUMMARY.md)（源码）
+* <https://github.com/waylau/apache-isis-tutorial/> 的 [SUMMARY.md](https://github.com/waylau/apache-isis-tutorial/blob/master/SUMMARY.md)（源码）
 * <http://waylau.gitbooks.io/apache-isis-tutorial> 点击 Read 按钮（同步更新，国内访问速度一般）
  
 ### Code 源码
