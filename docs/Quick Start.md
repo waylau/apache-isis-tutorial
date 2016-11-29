@@ -40,6 +40,7 @@ git clone  https://github.com/isisaddons/isis-app-todoapp.git
 切换到应用程序的根目录，只需使用下面命令来构建：
 
 ```
+cd isis-app-todoap
 mvn clean install
 ```
 
