@@ -52,10 +52,39 @@ todoapp 应用程序会生成单个 WAR 文件，配置为运行 Wicket 查看�
 
 ```
 cd webapp
-mvn jetty:run -D jetty.port = 9090
+mvn jetty:run -D jetty.port=9090
 ```
 
-在上面，我们通过了一个属性来配置一个不同于默认端口（8080）的端口。
+在上面，我们通过了一个属性来配置一个不同于默认端口（8080）的端口。看到如下输出，说明应用启动成功：
+
+```
+********************************************************************
+*** WARNING: Wicket is running in DEVELOPMENT mode.              ***
+***                               ^^^^^^^^^^^                    ***
+*** Do NOT deploy to your live server(s) without changing this.  ***
+*** See Application#getConfigurationType() for more information. ***
+********************************************************************
+十一月 29, 2016 11:06:40 下午 org.webjars.servlet.WebjarsServlet init
+信息: WebjarsServlet cache enabled: true
+十一月 29, 2016 11:06:40 下午 org.webjars.servlet.WebjarsServlet init
+信息: WebjarsServlet initialization completed
+[INFO] Started o.e.j.m.p.JettyWebAppContext@124dac75{/,[file:///D:/workspaceGit/isis-app-todoapp/webapp/src/main/webapp/
+, jar:file:///D:/workspaceMaven/org/webjars/jquery-ui/1.11.4/jquery-ui-1.11.4.jar!/META-INF/resources, jar:file:///D:/wo
+rkspaceMaven/org/webjars/bootstrap/3.3.6/bootstrap-3.3.6.jar!/META-INF/resources, jar:file:///D:/workspaceMaven/org/webj
+ars/select2/3.5.2/select2-3.5.2.jar!/META-INF/resources, jar:file:///D:/workspaceMaven/org/webjars/Eonasdan-bootstrap-da
+tetimepicker/4.15.35/Eonasdan-bootstrap-datetimepicker-4.15.35.jar!/META-INF/resources, jar:file:///D:/workspaceMaven/or
+g/webjars/momentjs/2.10.3/momentjs-2.10.3.jar!/META-INF/resources, jar:file:///D:/workspaceMaven/org/webjars/font-awesom
+e/4.4.0/font-awesome-4.4.0.jar!/META-INF/resources, jar:file:///D:/workspaceMaven/org/webjars/bower/summernote/0.7.0/sum
+mernote-0.7.0.jar!/META-INF/resources, jar:file:///D:/workspaceMaven/org/webjars/jquery/1.11.1/jquery-1.11.1.jar!/META-I
+NF/resources, jar:file:///D:/workspaceMaven/org/webjars/animate.css/3.2.5/animate.css-3.2.5.jar!/META-INF/resources, jar
+:file:///D:/workspaceMaven/org/webjars/modernizr/2.8.3/modernizr-2.8.3.jar!/META-INF/resources, jar:file:///D:/workspace
+Maven/org/webjars/swagger-ui/2.1.3/swagger-ui-2.1.3.jar!/META-INF/resources],AVAILABLE}{file:///D:/workspaceGit/isis-app
+-todoapp/webapp/src/main/webapp/}
+[INFO] Started ServerConnector@3ff83cc8{HTTP/1.1,[http/1.1]}{0.0.0.0:9090}
+[INFO] Started @26173ms
+[INFO] Started Jetty Server
+```
+
 
 您也可以通过部署到独立的 servlet 容器（如 [Tomcat](http://tomcat.apache.org/)）来运行该应用程序。
 
